@@ -1,0 +1,146 @@
+// Place all the styles related to the landing_page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.topSection{
+    background: orange;
+}
+
+.jumbotron{
+    margin-bottom: 0px !important;
+    border-bottom: 3px solid orange;
+    background: rgb(24, 22, 22) !important;
+}
+
+#welcome{
+    color: white;
+}
+
+.callToAction{
+    background: transparent; 
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block; 
+    margin-top: -5px;
+    font-weight: bold;
+    color: rgb(124, 124, 124);
+}
+
+.jumbotron p{
+    color: orange;
+    text-shadow: 0.4px 0.4px 0.4px orange;
+}
+
+.usefulInformation{
+    display: block;
+}
+
+.infoSection{
+    margin-top: 0px;
+    padding: 30px 0px;
+}
+
+.heightControl{
+    color: orange;
+}
+
+.info{
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 40px;
+    width: 30%;
+    text-align: center;
+    background: orange;
+    margin-bottom: 10px;
+}
+
+.infoDescription{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+
+.iconInfo{
+    text-shadow: 1px 1px 1px peachpuff;
+    color: black;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.formMail{
+    display: block;
+    padding-bottom: 15px;
+    background: rgb(24, 22, 22);
+}
+
+.actionCall{
+    padding: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.formStyle{
+    border-radius: 10px;
+    background: white;
+    margin: 10px 100px;
+}
+
+.formStyle form{
+    padding: 30px;
+}
+
+.formStyle label{
+    padding: 10px;
+    border-radius: 15px 0px 15px 0px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+}
+
+.labelForm{
+    background: orange;
+}
+
+.contactTitle{
+    color: white;
+}
+
+.contactTitle span{
+    font-style: italic;
+}
+
+.contactTitle h3{
+    color: white;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid orange;
+}
+
+.sendButton{
+    background: orange;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: -8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .callToAction{
+        margin-top: -15px !important;
+    }
+
+    .infoDescription{
+        padding-bottom: 30px;
+    }
+
+    .info{
+        margin-left: 35%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+}

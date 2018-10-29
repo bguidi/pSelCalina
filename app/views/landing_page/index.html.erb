@@ -1,0 +1,55 @@
+ <% provide(:title, "Home") %>
+
+<div class="topSection">
+  <div class="jumbotron">
+    <h1 class="display-4" style="color: orange;"><span id="welcome"> Bem vind@ </span> ao mailer </h1>
+    <hr class="my-4" style="background: white;">
+    
+    <p class="lead">Nesta página, você pode mandar um email para Leandro. <span> 
+      <button class="callToAction btn" onclick="jumpToAnchor()"> <i class="fas fa-envelope-square"></i>  Envie um email </button> 
+    </span></p>
+
+   
+
+  </div>
+
+</div>
+
+<div class="infoSection">
+
+  <div class="row text-center">
+    
+  </div>
+  <div class="row text-center">
+    <div class="col-md-6 col-xs-12 text-center mx-auto">
+      <div class="infoDescription">
+        <i class="fab fa-slideshare iconInfo col-md-4"></i> 
+        <p> Nosso site é feito para providenciar a melhor experiência.</p>
+      </div>
+      <div class="info offset-md-4 shadow">
+        <span class="heightControl"> Height </span>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-xs-12 text-center mx-auto">
+      <div class="infoDescription">
+        <i class="fas fa-user-friends iconInfo col-md-4"></i> 
+        <p> Use suas palavras; se dê a sua melhor oportunidade.</p>
+      </div>
+      <div class="info offset-md-4 shadow">
+        <span class="heightControl"> Height </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="formMail" id="form" style="display: block;">
+  <div class="row text-center contactTitle"> 
+    <h3 class="col-md-4 offset-md-4">
+       Curtiu? <span> Mande um email! </span>
+    </h3>
+  </div>
+  <div class="formStyle">
+    <%= render "landing_page/partials/form" %>
+  </div>
+</div>
