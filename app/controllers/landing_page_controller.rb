@@ -1,8 +1,10 @@
 class LandingPageController < ApplicationController
+  #show page
   def index
         
   end
 
+  #create json to get email content
   def create  
     @json = Hash.new
 
@@ -16,10 +18,12 @@ class LandingPageController < ApplicationController
   
   end
 
+  #sent email page
   def mail_sent
 
   end
 
+  #require form params
   def send_mail_params
     params.require(@json).permit(:name, :subject, :message)
   end
